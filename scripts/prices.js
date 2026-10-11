@@ -1,6 +1,6 @@
 "use strict"
-// const prices=document.querySelector("#priceCard");
 
+// object that has baked goods prices
 const bakedGoodsPrices=[
     {name:"Chocolate croissants",
     price:35,
@@ -35,23 +35,6 @@ const bakedGoodsPrices=[
             }
    }
 
-// function to give the products on the product list  their prices
- let priceCards=document.querySelectorAll(".bakedProd");
-
-
-
- 
-
-
-
-
-// function to match the products and match with the prices
-// function mathcingProductToPrice(name){
-//     let product=bakedGoodsPrices
-
-  
-// }
-
-// for(){
-
-// }
+getProductNames(bakedGoodsPrices)
+let compareProductNames=document.querySelectorAll('.bakedProd')
+ console.log(compareProductNames)
