@@ -43,6 +43,10 @@ function bakedProductList(){
 let docProductNames=document.querySelectorAll('.bakedProd');// this takes all  the document's bakedproduct names and stores them in an array
 
  docProductNames.forEach(bakedProductName=>{
-    const allProducts=(bakedProductName.textContent.trim())  
- });//  this arrow foreach function takes all the data in the products array and list them out
+    const allProducts=(bakedProductName.textContent.trim());
+    console.log(allProducts);
+ })
+ //  this arrow foreach function takes all the data in the products array and list them out
 };
+bakedProductList();
+
