@@ -31,7 +31,7 @@ const bakedGoodsPrices=[
 // function to get product names fom the product objects
  function getProductNames(foodobj){
     for(let i=0;i<foodobj.length;i++){
-          console.log(foodobj[i].name)
+          return foodobj[i].name;
             }
    }
 
@@ -44,9 +44,10 @@ let docProductNames=document.querySelectorAll('.bakedProd');// this takes all  t
 
  docProductNames.forEach(bakedProductName=>{
     const allProducts=(bakedProductName.textContent.trim());
-    console.log(allProducts);
+    return(allProducts);
  })
  //  this arrow foreach function takes all the data in the products array and list them out
 };
 bakedProductList();
+
 
